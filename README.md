@@ -1,6 +1,6 @@
 A simple and visually appealing Todo List web application built with HTML, CSS, and JavaScript. This app allows users to add and remove tasks from their to-do list with a golden-yellow theme for a modern look.
 
-**Features :**
+# Features
 
 -Add tasks to the Todo list.
 
@@ -9,7 +9,7 @@ A simple and visually appealing Todo List web application built with HTML, CSS, 
 -Interactive and stylish user interface with a golden-yellow color scheme.
 
 
-**Technologies Used :**
+# Technologies Used
 
 **HTML**: For the structure of the web page.
 

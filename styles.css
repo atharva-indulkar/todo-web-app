@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5e6; /* Soft golden background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .todo-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ffcc00; /* Golden border around the container */
+  }
+  
+  .todo-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffcc00; /* Golden-yellow color for the title */
+  }
+  
+  .todo-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffcc00; /* Golden border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  .add-btn {
+    padding: 10px 20px;
+    background: #ffcc00; /* Golden-yellow button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .add-btn:hover {
+    background: #e6b800; /* Slightly darker golden shade on hover */
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .todo-item {
+    background: #fff8e6; /* Light golden background for items */
+    padding: 10px;
+    border: 1px solid #f0c200; /* Lighter golden border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-item span {
+    color: #333; /* Dark text color for task */
+  }
+  
+  .delete-btn {
+    background: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .delete-btn:hover {
+    background: #e64a4a;
+  }
+  
